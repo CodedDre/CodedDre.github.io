@@ -1,0 +1,39 @@
+:root {
+  --white: #fff;
+  --secondary: black;
+  --third: #00ADB5;
+  --fourth: #84D2C5;
+  --save:#EAF6F6;
+  --new:#5E5D5C;
+}
+body{
+
+}
+
+li{
+  font-size: 150%;
+  letter-spacing: 2px;
+  color: var(--white)
+}
+
+
+td{
+  font-size: 150%;
+}
+.nav-link{
+color: #fff;
+}
+.navbar{
+  background-color: var(--new);
+}
+.navbar-nav {
+    float:none;
+    margin:0 auto;
+    display: block;
+    text-align: center;
+}
+
+.navbar-nav > li {
+    display: inline-block;
+    float:none;
+}
